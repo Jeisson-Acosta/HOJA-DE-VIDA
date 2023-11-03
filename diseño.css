@@ -1,0 +1,749 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    max-width: 100%;
+    background-color: #282828;
+    padding: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.fullName{
+    text-align: center;
+    text-shadow: 1px 1px 12px rgb(0, 225, 255);
+}
+.allsobremi{
+    max-width: 100%;
+    background-image: url(/IMGS/fondoSobreMi.jpg);  
+    color: white;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.allexperiencework{
+    max-width: 100%;
+    background-image: url(/IMGS/fondoExperiencia.jpg);
+    padding: 1rem;
+    color: white;
+    text-align: justify;
+}
+.allhabilitys{
+    max-width: 100%;
+    background-image: url(/IMGS/fondoHabilidades.jpg);
+    padding: 1rem;
+    color: white;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleHabilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.creativity{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMGS/creatividad.jpg);
+    border-radius: 5px;
+    max-width: 20%;
+    margin-right: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(222, 255, 34);
+
+}
+.creativity h3{
+    font-size: 25px;
+}
+.creativity p{
+    font-size: 22px;
+    text-align: justify;
+    margin-top: -10px;
+    text-shadow: 1px 1px 4px black;
+}
+.agility{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMGS/agilidad.jpg);
+    border-radius: 5px;
+    max-width: 20%;
+    margin-right: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(222, 255, 34);
+}
+.agility h3{
+    font-size: 25px;
+}
+.agility p{
+    font-size: 22px;
+    text-align: justify; 
+    margin-top: -10px;
+    text-shadow: 1px 1px 4px black;
+}
+.knowledge{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMGS/conocimiento.jpg);
+    border-radius: 5px;
+    max-width: 20%;
+    margin-right: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(222, 255, 34);
+}
+.knowledge h3{
+    font-size: 25px;
+}
+.knowledge p{
+    font-size: 22px;
+    text-align: justify;
+    margin-top: -10px;
+    text-shadow: 1px 1px 4px black;
+}
+.titleexperience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allrewards{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMGS/fondoLogros.jpg);
+    flex-direction: column;
+    color: white;
+}
+.languagesHabilitys{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+.languagesHabilitys img{
+    border-radius: 50%;
+    padding: 10px;
+    max-width: 40%;
+    min-width: 10%;
+}
+.languagesHabilitys progress{
+    margin-bottom: 10px;
+}
+.languagesHabilitys div{
+    margin: 12px;
+}
+.languagesHabilitys p{
+    text-align: center;
+}
+.html5, .css, .javaScript, .python, .mysql, .java{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 2px rgb(222, 255, 34);
+
+}
+
+.python{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 14, 14);
+    border-radius: 10px;
+}
+.python img{
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px rgb(0, 140, 255), -3px -3px 5px yellow;
+}
+.mysql{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 14, 14);
+    border-radius: 10px;
+}
+.mysql img{
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(0, 81, 255);
+}
+.java{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 14, 14);
+    border-radius: 10px;
+}
+.java img{
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px rgb(255, 0, 0), -3px -3px 5px rgb(0, 119, 255);
+}
+.html5{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 14, 14);
+    border-radius: 10px;
+}
+.html5 img{
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(255, 174, 0);
+}
+.css{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 14, 14);
+    border-radius: 10px;
+}
+.css img{
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(21, 103, 255);
+}
+.javaScript{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 14, 14);
+    border-radius: 10px;
+}
+.javaScript img{
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(239, 255, 11);
+}
+.certifiedAlgoritms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/IMGS/fondoAlgortimos.jpg);
+    max-width: 26%;
+    margin-right: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(34, 255, 89);
+}
+.certifiedAlgoritms h3{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+.certifiedAlgoritms img{
+    width: 80%;
+    border-radius: 12px;
+    padding: 6px;
+}
+.certifiedJava{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/IMGS/fondoJava.jpg);
+    max-width: 26%;
+    margin-right: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(34, 255, 89);
+}
+.certifiedJava h3{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+.certifiedJava img{
+    width: 80%;
+    border-radius: 12px;
+    padding: 6px;
+}
+.certifiedPythonForBegginers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/IMGS/fondoPython.jpg);
+    max-width: 26%;
+    margin-right: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(34, 255, 89);
+}
+.certifiedPythonForBegginers h3{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+.certifiedPythonForBegginers img{
+    width: 80%;
+    border-radius: 12px;
+    padding: 6px;
+}
+.certifieHTMLAndCSS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/IMGS/fondoHTMLyCSS.jpg);
+    max-width: 26%;
+    margin-right: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(34, 255, 89);
+}
+.certifieHTMLAndCSS h3{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+.certifieHTMLAndCSS img{
+    width: 80%;
+    padding: 6px;
+    border-radius: 12px;
+}
+.certifieMYSQL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/IMGS/fondoMYSQL.jpg);
+    max-width: 26%;
+    margin-right: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 2px rgb(34, 255, 89);
+}
+.certifieMYSQL img{
+    width: 80%;
+    border-radius: 12px;
+    padding: 6px;
+}
+.certifieMYSQL h3{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+.personalDates{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMGS/containerAllDates.jpg);
+    color: white;
+    flex-direction: column;
+}
+.imagePhotoDates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 15px;
+}
+.imagePhotoDates img{
+    box-shadow: 0px 0px 5px 2px rgb(22, 189, 255);
+}
+.dates{
+    width: 80%;
+    border-radius: 8px;
+    background-image: url(/IMGS/fondosContainerDatos.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px 2px rgb(22, 189, 255);
+}
+.email{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 50%;
+    background-color: blueviolet;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+.email:hover{
+    box-shadow: 0px 0px 5px 2px white;
+}
+.telephone{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(43, 122, 226);
+    border-radius: 4px;
+    margin-top: 12px;
+}
+.telephone:hover{
+    box-shadow: 0px 0px 5px 2px white;
+}
+.name{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(43, 226, 134);
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.name:hover{
+    box-shadow: 0px 0px 5px 2px white;
+}
+.imagePhotoDates img{
+    width: 90%;
+    border-radius: 16px;
+}
+.email svg{
+    width: 10vh;
+    height: 4vh;
+}
+.name svg{
+    width: 10vh;
+    height: 4vh;
+}
+.telephone svg{
+    width: 10vh;
+    height: 4vh;
+}
+.telephone p{
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.name p{
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.email p{
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.titleexperience h1{
+    text-align: center;
+}
+.boxs{
+    display: flex;
+    justify-content: center;
+}
+.boxs2{
+    display: flex;
+    justify-content: center;
+}
+.divphoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.divphoto img{
+    width: 300px;
+    height: 300px;
+    border: 2px dashed white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 2px rgb(22, 189, 255);
+}
+.divphotoProca img{
+    width: 180px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: -16px;
+    box-shadow: 0px 0px 5px 2px rgb(255, 22, 22);
+}
+.divphotoProca h5{
+    text-shadow: 2px 2px 5px black;
+    font-size: 22px;
+}
+.divphotoProca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMGS/containerTitleProca.jpg);
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgb(255, 34, 34);
+}
+.explicationForMy{
+    max-width: 40%;
+    box-shadow: 0px 0px 5px 3px rgb(46, 199, 250);
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    margin-left: 40px;
+    
+}
+.explicationForMy p{
+    padding: 10px;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+.explicationToProca p{
+    text-shadow: 2px 2px 4px black;
+    padding: 10px;
+}
+.explicationToProca{
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    max-width: 40%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/IMGS/explicacionProcaContainer.jpg);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 5px 2px rgb(255, 34, 34);
+    margin-left: 40px;
+}
+.divphotoProca button{
+    width: 150px;
+    height: 42px;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(255, 38, 38);
+    padding: 8px;
+    font-family: fantasy;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px white;
+    margin-bottom: 6px;
+    transition: all .4s ease;
+}
+.divphotoProca a{
+    text-decoration: none;
+    color: white;
+}
+.divphotoProca button:hover{
+    background-color: rgb(6, 149, 216);
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
+}
+header li{
+    list-style-type: none;
+}
+header svg{
+    fill: white;
+    width: 2em;
+    height: 2em;
+    display: none;
+}
+header ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+header li{
+    margin: 0 .5em;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    font-size: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+nav li:hover{
+    transform: translateY(-10px);
+}
+nav a:hover{
+    color: rgb(0, 183, 255);
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+#nameForMi{
+    background-color: aqua;
+}
+#columbia{
+    background-color: rgb(28, 228, 28);
+}
+#studentSystem{
+    background-color: rgb(255, 81, 0);
+}
+#corporation{
+    background-color: rgb(82, 40, 233);
+}
+
+#textoProca1{
+    background-color: rgb(255, 77, 77);
+}
+#textSupport{
+    background-color: rgb(68, 245, 68);
+}
+#procaExperience{
+    background-color: rgb(255, 143, 38);
+}
+#firstlevel{
+    background-color: rgb(0, 111, 202);
+}
+#networkSupport{
+    background-color: rgb(240, 166, 29);
+}
+#conditioning{
+    background-color: blueviolet;
+}
+#administrationCount{
+    background-color: rgb(65, 221, 187);
+}
+#cloud{
+    background-color: rgb(34, 34, 255);
+}
+#BackupAdministraton{
+    background-color: orange;
+}
+#creativity{
+    background-color: rgb(255, 0, 128);
+}
+#agility{
+    background-color: rgb(255, 187, 0);
+}
+#knowledge{
+    background-color: rgb(45, 45, 253);
+}
+@media screen and (max-width: 820px) {
+    header li{
+        list-style-type:circle;
+    }
+    header svg{
+        display: block;
+        cursor: pointer;
+    }
+    header nav{
+        width: 100%;
+        height: 0;
+        transition: all .5s ease;
+        display: flex;
+        pointer-events: none;
+        flex-flow: column nowrap;
+        align-items: center;
+        overflow: hidden;
+    }
+    header nav.activo{
+        height: auto;
+        pointer-events: auto;
+    }
+    header ul{
+        flex-direction: column;
+    }
+    header li{
+        margin: 1rem 0;
+    }
+    .boxs{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxs2{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divphotoProca{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        width: 250px;
+        
+    }
+    .explicationForMy{
+        max-width: 90%;
+        margin-left: 0px;
+    }
+    .divphoto img{
+        width: 170px;
+        height: 185px;
+    }
+    .explicationToProca{
+        max-width: 90%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .languagesHabilitys{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .python{
+        width: 70%;
+    }
+    .mysql{
+        width: 70%;
+    }
+    .java{
+        width: 70%;
+    }
+    .html5{
+        width: 70%;
+    }
+    .css{
+        width: 70%;
+    
+    }
+    .javaScript{
+        width: 70%;
+    }
+    .divphotoProca img{
+        width: 130px;
+        height: 110px;
+    }
+    .creativity{
+        max-width: 60%;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .agility{
+        max-width: 60%;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .knowledge{
+        max-width: 60%;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .certifiedAlgoritms{
+        max-width: 85%;
+        margin-top: 12px;
+    }
+    .certifieHTMLAndCSS{
+        max-width: 85%;
+        margin-top: 12px;
+    }
+    .certifieMYSQL{
+        max-width: 85%;
+        margin-top: 12px;
+    }
+    .certifiedPythonForBegginers{
+        max-width: 85%;
+        margin-top: 12px;
+    }
+    .certifiedJava{
+        max-width: 85%;
+        margin-top: 12px;
+    }
+    .dates{
+        width: 90%;
+    }
+    .email{
+        width: 70%;
+    }
+    .telephone{
+        width: 70%;
+    }
+    .name{
+        width: 70%;
+    }
+}
